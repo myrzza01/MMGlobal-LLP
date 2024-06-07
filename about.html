@@ -1,55 +1,257 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О нас - Доставка авто из США</title>
-    <link rel="stylesheet" href="cotalog.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <meta name="description" content="MMGlobal LLP - Your trusted partner for the best cars from the USA. Learn about our mission, vision, and meet our team.">
+    <meta name="keywords" content="MMGlobal LLP, cars, USA, automotive, quality vehicles, customer service">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="/css/media.css">
-</head>
-<body>
-    <div class="bacImg" >
-    <div class="header_nav">
-        <a href="#!" class="logo">MMGlobal LLP</a>
-
-        <nav id = "nav" class="nav open">
-            <ul class="nav_list">
-                <li class="nav_item"><a href="/index.html" class="nav_link">Home</a></li>
-
-                <li class="nav_item"><a href="https://www.copart.com/" class="nav_link">Cars</a></li>
-                <li class="nav_item"><a href="http://evo-app.kz/?fbclid=PAZXh0bgNhZW0CMTEAAaZn7Y3vyR6zUCMB10S-DNwKzYc-IIBkZLE3yE0NxW-HfmvlI8SMuKCWC68_aem_AZX9pJv2UuWBxTBIvud_OwLFyyl7qbLNqKZKAItVA6yXpbe8lOV3QuclZmgSVHBETNsrsffb7xaDOnWHrcBpxeIC" class="nav_link">Partnership</a></li>
-                <li class="nav_item"><a href="/about.html" class="nav_link active">About</a></li>
-                
-            </ul>
-
-            <button id = "nav_btn" class="nav_button">
-                <img id="nav_btn_img" src="./img/icons/nav_open.svg" alt="Nav_Button">
-            </button>
-        </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Us - MMGlobal LLP</title>
+    <style>
        
+        .header_row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 0;
+        }
 
-    </div>
-    <header>
-        
+        .header_content {
+            max-width: 600px;
+        }
+
+        .header_heading {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .header_img img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .title_1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about_content {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        .partnership_row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .partnership_card {
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background-color: #fff;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+
+        .partnership_card_img {
+            width: 100px;
+            height: auto;
+            object-fit: contain;
+            margin: 0 auto 10px;
+            display: block;
+        }
+
+        .partnership_card_title {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        .values_row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .values_card {
+            flex: 1 1 300px;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .values_card_title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .contacts {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .contacts_button .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #333;
+            background: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contacts_button .btn:hover {
+            background: #ddd;
+        }
+
+        .contacts_social a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .contacts_footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_nav">
+                <a href="#!" class="logo">MMGlobal LLP</a>
+                <nav id="nav" class="nav open">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="/index.html" class="nav_link">Home</a></li>
+                        <li class="nav_item"><a href="https://www.copart.com/" class="nav_link">Cars Auctions</a></li>
+                        <li class="nav_item"><a href="http://evo-app.kz/?fbclid=PAZXh0bgNhZW0CMTEAAaZn7Y3vyR6zUCMB10S-DNwKzYc-IIBkZLE3yE0NxW-HfmvlI8SMuKCWC68_aem_AZX9pJv2UuWBxTBIvud_OwLFyyl7qbLNqKZKAItVA6yXpbe8lOV3QuclZmgSVHBETNsrsffb7xaDOnWHrcBpxeIC" class="nav_link">Evo app</a></li>
+                        <li class="nav_item"><a href="/about.html" class="nav_link active">About</a></li>
+                    </ul>
+                    <button id="nav_btn" class="nav_button" onclick="toggleNav()">
+                        <img id="nav_btn_img" src="./img/icons/nav_open.svg" alt="Toggle Navigation">
+                    </button>
+                </nav>
+            </div>
+            <div class="header_row" data-aos="fade-right">
+                <div class="header_content">
+                    <h1 class="header_heading">About Us</h1>
+                    <p>
+                        Welcome to MMGlobal LLP! We are dedicated to bringing you the best cars from the USA at unbeatable prices. Our commitment to quality and customer satisfaction sets us apart in the automotive industry.
+                    </p>
+                </div>
+                <div class="header_img" data-aos="fade-left">
+                    <img src="lamborghini.png" alt="">
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="aboutUs" id="about-us" src = "img/chevrolet_camaro_chevrolet_vid_sboku_133529_3840x2400.jpg">
-            <h2 class="h2_aboutUs">About company</h2>
-            <p>Our company delivers cars from the USA. We cooperate with reliable partners and provide quality services at low prices.
-                 And also each car delivered by us is of high quality as it is carefully checked by professionals.</p>
-            <h3 class="h2_aboutUs">Our partners</h3>
-            <p>We are proud of our partners who help us provide a high level of service and meet the needs of our customers.
-                 One of the main partners is evoapp, which provides assistance in servicing cars throughout Kazakhstan.</p>
-            <ul>
-                <li></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; MMGlobal 2024 </p>
+
+    <section class="section about" data-aos="fade-up">
+        <div class="container">
+            <h2 class="title_1">Our Mission</h2>
+            <div class="about_content">
+                <p>
+                    At MMGlobal LLP, our mission is to provide top-quality vehicles at affordable prices. We believe in transparency, reliability, and exceptional customer service. Our team is passionate about cars and committed to helping you find your dream vehicle.
+                </p>
+            </div>
+            <h2 class="title_1">Our Vision</h2>
+            <div class="about_content">
+                <p>
+                    Our vision is to become a trusted leader in the automotive market, known for our integrity and dedication to our customers. We strive to build long-lasting relationships with our clients by consistently exceeding their expectations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section partnership" data-aos="fade-up">
+        <div class="container">
+            <h2 class="title_1">Partnership</h2>
+            <div class="partnership_row">
+                <div class="partnership_card">
+                    <img class="partnership_card_img" src="image.png" alt="Copart - Car Auctions">
+                    <h3 class="partnership_card_title">Copart</h3>
+                    <p>
+                        Copart is a premier online car auction platform where clients can choose from a vast selection of vehicles. Whether you are looking for a project car or a ready-to-drive vehicle, Copart offers diverse options to meet your needs.
+                    </p>
+                </div>
+                <div class="partnership_card">
+                    <img class="partnership_card_img" src="image_2024-06-06_23-54-03.png" alt="EVO - Auto Service App">
+                    <h3 class="partnership_card_title">EVO</h3>
+                    <p>
+                        EVO is an innovative app developed by our friends that ensures top-notch vehicle maintenance across Kazakhstan. If you buy a car from us with a discount, you can enjoy servicing at any certified auto repair shop throughout the country, thanks to EVO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section values" data-aos="fade-up">
+        <div class="container">
+            <h2 class="title_1">Our Values</h2>
+            <div class="values_row">
+                <div class="values_card">
+                    <h3 class="values_card_title">Integrity</h3>
+                    <p>We uphold the highest standards of integrity in all of our actions.</p>
+                </div>
+                <div class="values_card">
+                    <h3 class="values_card_title">Customer Commitment</h3>
+                    <p>We develop relationships that make a positive difference in our customers' lives.</p>
+                </div>
+                <div class="values_card">
+                    <h3 class="values_card_title">Quality</h3>
+                    <p>We provide outstanding products and unsurpassed service that deliver premium value to our customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contacts" data-aos="fade-up">
+        <div class="container">
+            <h2 class="title_1">Contacts</h2>
+            <p>Want to know more? Get in touch with us! You are welcome!</p>
+            <div class="contacts_button">
+                <a href="https://t.me/myrzza01" class="btn">Send Message</a>
+            </div>
+            <div class="contacts_social">
+                <a href="https://www.linkedin.com/in/%D0%BC%D1%8B%D1%80%D0%B7%D0%B0%D0%BA%D0%B5%D0%BB%D0%B4%D1%96-%D1%81%D2%AF%D0%BB%D0%B5%D0%B9%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2-b80459311/"><img src="img/socioal/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/invites/contact/?igsh=bml2MDVsdW0xdGt0&utm_content=2vvzthi"><img src="img/socioal/Instargam.svg" alt="Instagram"></a>
+                <a href="https://www.behance.net/search/projects"><img src="img/socioal/Behance.svg" alt="Behance"></a>
+                <a href="https://dribbble.com/"><img src="img/socioal/Dribble.svg" alt="Dribbble"></a>
+            </div>
+            <div class="contacts_footer">
+                <p>&copy; 2024 MMGlobal LLP. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
-</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        function toggleNav() {
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('open');
+        }
+        AOS.init();
+    </script>
 </body>
+
 </html>
