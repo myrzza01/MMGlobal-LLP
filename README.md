@@ -1,4 +1,5 @@
 MMGlobal LLP
+
 This project is a web application designed to showcase the services and offerings of MMGlobal LLP. It includes various sections that detail the company's mission, services, portfolio, and contact information.
 
 Content
