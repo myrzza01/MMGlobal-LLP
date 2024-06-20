@@ -14,7 +14,6 @@ Technology
 
 Author
 
-About the project
 
 This project was created to present MMGlobal LLP, a company that deals with importing cars from the USA. It includes the following sections:
 
