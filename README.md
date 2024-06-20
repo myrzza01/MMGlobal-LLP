@@ -3,12 +3,19 @@ MMGlobal LLP
 This project is a web application designed to showcase the services and offerings of MMGlobal LLP. It includes various sections that detail the company's mission, services, portfolio, and contact information.
 
 Content
+
 About the project
+
 Installation
+
 Usage
+
 Technology
+
 Author
+
 About the project
+
 This project was created to present MMGlobal LLP, a company that deals with importing cars from the USA. It includes the following sections:
 
 Home: Brief introduction to the company.
